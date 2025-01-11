@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+
+# IDE/Editor
+.vscode/
+*.code-workspace
+
+# Package manager files
+package-lock.json
+
+# Database
+/Backend/data/*.sqlite
+/Backend/data/*.sqlite3
+
+# Logs
+*.log
+
+# System files
+.DS_Store
